@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+      "target": "es2016",
+      "jsx": "preserve",
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "baseUrl": "./",
+      "paths": {
+        "ccomponents/": ["src/components/common/"],
+        "components/": ["src/components/layouts/"],
+        "constants/": ["src/constants/"],
+        "styles/": ["src/styles/"],
+      },
+      "esModuleInterop": true,
+      "forceConsistentCasingInFileNames": true,
+      "strict": true,
+      "skipDefaultLibCheck": true,
+      "skipLibCheck": true,
+    }
+  }
